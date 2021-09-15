@@ -1,17 +1,25 @@
 {
-  "name": "back-end",
-  "version": "1.0.0",
-  "description": "Back-End for webGL Platform.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "webgl"
-  ],
-  "author": "Eduardo H.P. Souza (Quazariun)",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "back-end",
+    "version": "1.0.0",
+    "description": "Back-End for webGL Platform.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "watch": "nodemon"
+    },
+    "keywords": [
+        "webgl"
+    ],
+    "author": "Eduardo H.P. Souza (Quazariun)",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "connect-livereload": "^0.6.1",
+        "livereload": "^0.9.3",
+        "nodemon": "^2.0.12"
+    }
 }
