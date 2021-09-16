@@ -1,0 +1,19 @@
+HTML,
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    border: 5px dotted blue;
+    float: left;
+    position: fixed;
+    z-index: 998;
+}
+
+#btn-menu {
+    float: left;
+    position: fixed;
+    z-index: 999;
+}

@@ -1,0 +1,18 @@
+HTML,
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    float: left;
+    position: fixed;
+    z-index: 998;
+}
+
+#btn-menu {
+    float: left;
+    position: fixed;
+    z-index: 999;
+}

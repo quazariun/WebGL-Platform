@@ -13,3 +13,8 @@ app.get("/Models/Geometries/:id", (req, res) => {
     let data = require('./Models/Geometries/' + req.params.id + '.json');
     res.json(data);
 });
+
+app.get("/Models/Maps/:id", (req, res) => {
+    let data = require('./Models/Maps/' + req.params.id + '.json');
+    res.json(data);
+});

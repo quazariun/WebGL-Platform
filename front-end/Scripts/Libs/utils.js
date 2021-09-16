@@ -25,7 +25,7 @@ export function autoResizeCanvas(canvas) {
 
 export async function loadVertexShader(gl, name) {
     let shaderString = null;
-    await fetch('../../Shaders/Vertex/' + name + '.vert')
+    await fetch('/Shaders/Vertex/' + name + '.vert')
         .then(response => response.text())
         .then(text => shaderString = text.trim())
 
@@ -46,7 +46,7 @@ export async function loadVertexShader(gl, name) {
 
 export async function loadFragmentShader(gl, name) {
     let shaderString = null;
-    await fetch('../../Shaders/Fragment/' + name + '.frag')
+    await fetch('/Shaders/Fragment/' + name + '.frag')
         .then(response => response.text())
         .then(text => shaderString = text.trim())
 

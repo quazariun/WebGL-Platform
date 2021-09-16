@@ -5,7 +5,7 @@ export default async function init_square(gl) {
     gl.clearColor(0.509, 0.509, 0.509, 1);
     gl.clear(gl.COLOR_BUFFER_BIT);
 
-    let square = await loadFile("square");
+    let square = await loadFile("Geometries/square");
 
     let vshader = await loadVertexShader(gl, "basic_2D");
     let fshader = await loadFragmentShader(gl, "basic_2D");
